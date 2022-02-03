@@ -1,3 +1,27 @@
+:root{
+    --main_bg:#15202b;
+    --sec_bg:#192734;
+    --ter_bg:#22303c;
+    --main:#ffffff;
+    --main_sec:#8899a6;
+    --main_clr:#0f6bc7;
+}
 body{
-    background: black;
+    background: var(--main_bg);
+    color:var(--main)
+}
+.main_txt{
+    color:var(--main)
+}
+.sec_txt{
+    color:var(--main_sec)
+}
+.bold{
+    font-weight: 900;
+}
+.main_clr{
+    color:var(--main_clr)
+}
+.bg_main_clr{
+    background:var(--main_clr)
 }
